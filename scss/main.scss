@@ -1,0 +1,40 @@
+@import "resets";
+@import "header";
+@import "scoreSec";
+@import "form-sec";
+
+.btn-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.form-btn {
+  width: 90%;
+  display: block;
+  padding: 0.5rem;
+  border: none;
+  color: #333;
+  border: 1px solid #333;
+  font-size: 2rem;
+  line-height: 1;
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: color 0.2s ease-in;
+  box-shadow: 0 5px 5px 8px rgba(0, 0, 0, 0.5), 4px 8px 6px rgba(0, 0, 0, 0.9);
+}
+
+.form-btn:hover {
+  color: #fa163f;
+  background: lighten($color: #393e46, $amount: 0);
+}
+
+.d-none {
+  display: none;
+}
+
+.footer {
+  color: #fff;
+  font-size: 1.5rem;
+}

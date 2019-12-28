@@ -1,0 +1,36 @@
+.form-sec {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+  align-items: center;
+  background-color: #e4f9ff;
+  background: blue;
+  height: 100%;
+}
+.form {
+  width: 80%;
+}
+.form-header {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+.lead {
+  font-size: 3rem;
+  color: #e4f9ff;
+}
+.form-q {
+  font-size: 2.25rem;
+  color: #e4f9ff;
+}
+label {
+  font-size: 1.5rem;
+  color: #e4f9ff;
+}
+input {
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  padding: 0 1.5rem;
+}

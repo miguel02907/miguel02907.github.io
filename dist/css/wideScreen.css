@@ -1,0 +1,28 @@
+.header {
+  height: 16vh; }
+  .header h1 {
+    font-size: 5.063rem; }
+  .header p {
+    font-size: 2rem; }
+
+.score-sec {
+  height: 25vh; }
+  .score-sec .score-text {
+    font-size: 3.375rem; }
+    .score-sec .score-text .score-value {
+      font-size: 7.594rem; }
+
+.form {
+  width: 100%;
+  background-color: inherit; }
+  .form p {
+    font-size: 3rem; }
+  .form label {
+    font-size: 2rem; }
+
+.form-header h2 {
+  font-size: 2rem;
+  margin-left: 1.5rem; }
+
+.form-sec {
+  height: 100vh; }
